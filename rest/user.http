@@ -1,0 +1,10 @@
+# GET http://localhost:3333/api?userId=user1&password=user1
+
+POST http://localhost:3333/api 
+Content-Type: application/json
+
+{
+    "userId": "user2",
+    "password": "user2",
+    "nickName": "USER"
+}
